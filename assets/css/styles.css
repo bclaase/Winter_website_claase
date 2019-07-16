@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css?family=Mallanna|Montserrat|Work+Sans:800&display=swap');
+
+header {
+    background-color: beige;
+    padding: 0px;
+}
+
+#header-logo {
+    max-height: 100px;
+    margin-left: 410px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+
+
+h1 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 40px;
+    color: dimgrey;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    padding: 30px;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: left;
+    padding: 8px;
+    line-height: 18px;
+    margin-top: 20px;
+
+}
+
+h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    padding-bottom: 20px;
+}
+
+/* homepage paragraph appearance */
+.home-paragraph {
+    padding: 30px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+h6 {
+    font-family: 'Mallanna', sans-serif;
+    font-size: 14px;
+    text-align: center;
+    padding: 14px;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    padding: 8px;
+    line-height: 18px;
+}
+
+.rb_about {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.general-history {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.visit-info {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.description-building {
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.background-colour1 {
+    background-color: #3E5770;
+    width: auto;
+}
+
+
+
+.para-list {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    text-align: left;
+    padding: 8px;
+}
+
+nav ul li {
+    display: inline;
+    background-color: beige;
+    font-family: 'Montserrat', sans-serif;
+    padding: 20px;
+    margin: 20px;
+    text-decoration-color: dimgrey;
+}
+
+
+nav ul {
+    background-color: beige;
+    text-align: center;
+    padding: 20px;
+}
+
+/* link attribute assignment */
+a {
+    text-decoration-line: none;
+    color: dimgrey;
+}
+
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    text-decoration: none;
+    color: dimgrey;
+}
+
+/* constructed to allow for fixed background img */
+.container1 {
+    max-width: 1920px;
+    margin-bottom: 0px;
+    background color: aqua;
+    font-size: 24px;
+    padding: 0px;
+}
+
+/* constructed to allow for fixed background img */
+.parallax_scroll {
+    background-image: url("churchill-house-18.jpg");
+    background-repeat: no-repeat;
+    align-content: center;
+    background-attachment: fixed;
+    background-size: 1920px 753px;
+    height: 600px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.container2 {
+    max-width: 1920px;
+    margin-bottom: 0px;
+    background color: aqua;
+    font-size: 24px;
+    padding: 0px;
+}
+
+/* constructed to allow for fixed background img */
+.parallax_scroll2 {
+    background-image: url(churchill-house-17.jpg);
+    background-repeat: no-repeat;
+    align-content: center;
+    background-attachment: fixed;
+    background-size: 1920px 753px;
+    height: 600px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+footer {
+    margin-top: 50px;
+}
+
+/* container 1 section for img slideshow on homepage */
+.slide-container {
+    width: 674px;
+    height: 297px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.image-container {
+    width: 2022px;
+    height: 297px;
+    position: relative;
+    transition: left 2s;
+}
+
+.slider-img {
+    float: left;
+    margin: 0px;
+    padding: opx;
+}
+
+.slider-button {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 5px;
+}
+
+.button-container {
+    top: -20px;
+    position: relative;
+}
+
+#slider1:target ~ .image-container {
+    left: 0px;
+}
+
+#slider2:target ~ .image-container {
+    left: -674px;
+}
+
+#slider3:target ~ .image-container {
+    left: -1348px;
+}
+
+.button-container a:active {
+    background-color: orange;
+}
+
+/* image display on HISTORY page */
+#img-house5 {
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    height: 741px;
+    width: 856px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+/* second slideshow on ROBIN BOYD page */
+.slide-container-robin {
+    width: 1090px;
+    height: 743px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.image-container-robin {
+    width: 2180px;
+    height: 743px;
+    position: relative;
+    transition: left 2s;
+}
+
+.slider-img-robin {
+    float: left;
+    margin: 0px;
+    padding: opx;
+}
+
+.slider-button-robin {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background-color: white;
+    margin: 5px;
+}
+
+.button-container-robin {
+    top: -20px;
+    position: relative;
+}
+
+#slider1robin:target ~ .image-container-robin {
+    left: 0px;
+}
+
+#slider2robin:target ~ .image-container-robin {
+    left: -1090px;
+}
+
+#street-map {
+    margin-top: 30px;
+}
+
+.button-container-robin a:active {
+    background-color: orange;
+}
