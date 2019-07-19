@@ -4,7 +4,7 @@
 
 ##### Rationale
 
-##** Ben Claase //** U3149620
+## **Ben Claase //** U3149620
 
 The final website design I have produced differs in more than one way from my original concept sketches; in some ways the limitations of CSS have defined the outcome, as I wasn’t able to include javascript to aid the layout and operation, although overall I have learnt that the possibilities within HTML and CSS are greater than I have harnessed in this website project.
 I set out to produce a website with non-standard scrolling effects which provide interest and a sense of non-linear movement through the website, and I have achieved part of this in having image containers with a background-fixed image inside of them on the landing and “history” pages (see figure 1). Getting these image containers to work properly in a format that suited the context was tricky and a good exercise in using margin and padding to position elements. If I were to explore front-end web design more in the future, I think I would like to learn more about page animation and how we interact with and navigate through web pages.
